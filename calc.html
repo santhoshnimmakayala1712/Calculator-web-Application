@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+     <div id ="calculator">
+    
+    <div >
+    <input id="display" type="text" readonly>
+    </div> 
+   
+    <div id="btns">
+     <button onclick="allclear()" id="func">AC</button>
+    <button onclick="appendTodisplay('(')" id="func">(</button>
+    <button onclick="appendTodisplay(')')" id="func">)</button>
+    <button onclick="appendTodisplay('/')" id="func">/</button>
+    <button onclick="appendTodisplay('7')">7</button>
+    <button onclick="appendTodisplay('8')">8</button>
+    <button onclick="appendTodisplay('9')">9</button>
+    <button onclick="appendTodisplay('*')" id="func">*</button>
+    <button onclick="appendTodisplay('4')">4</button>
+    <button onclick="appendTodisplay('5')">5</button>
+    <button onclick="appendTodisplay('6')">6</button>
+    <button onclick="appendTodisplay('-')" id="func">-</button>
+    <button onclick="appendTodisplay('1')">1</button>
+     <button onclick="appendTodisplay('2')">2</button>
+      <button onclick="appendTodisplay('3')">3</button>
+       <button onclick="appendTodisplay('+')" id="func">+</button>
+       <button onclick="appendTodisplay('%')" id="func">%</button>
+       <button onclick="appendTodisplay('0')" id="func">0</button>
+       <button onclick="appendTodisplay('.')" id="func">.</button>
+       <button onclick="calculate()" id="func">=</button>
+    </div>
+    </div>
+</body>
+</html>
